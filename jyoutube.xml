@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.6.5" type="plugin" group="content" method="upgrade">
+    <name>JYouTube</name>
+    <version>1.0.0</version>
+    <creationDate>04.11.2020</creationDate>
+    <author>Максим Ёдгоров</author>
+    <authorEmail>4374599@mail.ru</authorEmail>
+    <authorUrl></authorUrl>
+    <copyright>Copyright (C) Максим Ёдгоров</copyright>
+    <license>GNU/GPLv3 only</license>
+    <description>Заменяет {yt_id}idvideo{/yt_id} YouTube для вывода видео на сайт на всю ширину страницы.</description>
+    <files>
+        <filename plugin="jyoutube">jyoutube.php</filename>
+	<filename>jyoutube.css</filename>
+    </files>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+            </fieldset>
+        </fields>
+    </config>
+</extension>
